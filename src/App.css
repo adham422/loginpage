@@ -1,0 +1,72 @@
+body {
+  font-family: 'Urbanist', sans-serif;
+  background-color:#191919;
+}
+/* :root{
+  background-color: #FCEA47;
+} */
+.loginstyle {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  max-width: 400px;
+  height: 500px;
+  position: relative;
+  top: 70px;
+  background-color: #000;
+  border-radius: 15px;
+  
+}
+.homestyle{
+  font-size: 2rem;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin: 10px auto;
+  color: #fff;
+}
+.btnstyle {
+  background-color:#FCEA47;
+  color: #000;
+  font-weight: 800;
+  font-size: 1rem;
+  width: 130px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnstyle:hover{
+  background-color: #FCEA47;
+  color: #000;
+}
+.inpstyle{
+  color: #fff;
+}
+.formstyle{
+  border: 1px solid #FCEA47;
+  height: 35px;
+  background-color: #000;
+  color: #fff; 
+ 
+}
+.form-control:focus {
+  color: #fff;
+  border: 1px solid #FCEA47;
+  background-color: #000;
+  border-color: none;
+  outline: 0;
+  box-shadow: none;
+}
+input:-internal-autofill-selected {
+ 
+  background-image: none !important;
+  background-color: #000 !important;
+  color: #fff !important;
+}
